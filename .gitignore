@@ -1,0 +1,7 @@
+# .gitignore
+.env
+__pycache__/
+*.pyc
+main_01.py
+memory_00.py
+memory_01.py
