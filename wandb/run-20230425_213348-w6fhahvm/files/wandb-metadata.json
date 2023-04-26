@@ -1,0 +1,34 @@
+{
+    "os": "macOS-13.2-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-04-26T01:33:49.481908",
+    "startedAt": "2023-04-26T01:33:48.892072",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/nicholasgannon/Desktop/wand-trace/metadata-test/exec.py",
+    "codePath": "exec.py",
+    "git": {
+        "remote": "ssh://github.com/nickgannon10/wandb-tracer.git",
+        "commit": "911c08499a6b936a84248a24b20df6bcab8d7486"
+    },
+    "email": "nganno01@eecs.tufts.edu",
+    "root": "/Users/nicholasgannon/Desktop/wand-trace/metadata-test",
+    "host": "Nicholass-MBP-2.cable.rcn.com",
+    "username": "nicholasgannon",
+    "executable": "/Users/nicholasgannon/opt/miniconda3/envs/torch/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 268.2123565673828
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

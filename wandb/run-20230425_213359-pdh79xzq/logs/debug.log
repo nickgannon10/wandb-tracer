@@ -1,0 +1,16 @@
+2023-04-25 21:33:59,757 INFO    MainThread:44595 [wandb_setup.py:_flush():76] Configure stats pid to 44595
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_setup.py:_flush():76] Loading settings from /Users/nicholasgannon/.config/wandb/settings
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_setup.py:_flush():76] Loading settings from /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/settings
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'exec.py', 'program': '/Users/nicholasgannon/Desktop/wand-trace/metadata-test/exec.py'}
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_init.py:_log_setup():507] Logging user logs to /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_213359-pdh79xzq/logs/debug.log
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_213359-pdh79xzq/logs/debug-internal.log
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_init.py:init():547] calling init triggers
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-25 21:33:59,758 INFO    MainThread:44595 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-04-25 21:33:59,762 INFO    MainThread:44595 [wandb_run.py:_finish():1892] finishing run team_nickgannon10/wandb_prompts/w6fhahvm
+2023-04-25 21:33:59,762 INFO    MainThread:44595 [wandb_run.py:_atexit_cleanup():2126] got exitcode: 0
+2023-04-25 21:33:59,763 INFO    MainThread:44595 [wandb_run.py:_restore():2109] restore
+2023-04-25 21:33:59,763 INFO    MainThread:44595 [wandb_run.py:_restore():2115] restore done

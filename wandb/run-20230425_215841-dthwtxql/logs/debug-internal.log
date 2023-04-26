@@ -1,0 +1,200 @@
+2023-04-25 21:58:41,055 INFO    StreamThr :46277 [internal.py:wandb_internal():86] W&B internal server running at pid: 46277, started at: 2023-04-25 21:58:41.054112
+2023-04-25 21:58:41,056 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: status
+2023-04-25 21:58:41,058 INFO    WriterThread:46277 [datastore.py:open_for_write():85] open: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/run-dthwtxql.wandb
+2023-04-25 21:58:41,060 DEBUG   SenderThread:46277 [sender.py:send():375] send: header
+2023-04-25 21:58:41,086 DEBUG   SenderThread:46277 [sender.py:send():375] send: run
+2023-04-25 21:58:41,395 INFO    SenderThread:46277 [dir_watcher.py:__init__():219] watching files in: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files
+2023-04-25 21:58:41,395 INFO    SenderThread:46277 [sender.py:_start_run_threads():1124] run started: dthwtxql with start time 1682474321.052759
+2023-04-25 21:58:41,395 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 21:58:41,396 INFO    SenderThread:46277 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 21:58:41,397 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: check_version
+2023-04-25 21:58:41,398 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: check_version
+2023-04-25 21:58:41,690 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: run_start
+2023-04-25 21:58:41,700 DEBUG   HandlerThread:46277 [system_info.py:__init__():31] System info init
+2023-04-25 21:58:41,701 DEBUG   HandlerThread:46277 [system_info.py:__init__():46] System info init done
+2023-04-25 21:58:41,701 INFO    HandlerThread:46277 [system_monitor.py:start():181] Starting system monitor
+2023-04-25 21:58:41,701 INFO    SystemMonitor:46277 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-25 21:58:41,701 INFO    HandlerThread:46277 [system_monitor.py:probe():201] Collecting system info
+2023-04-25 21:58:41,702 DEBUG   HandlerThread:46277 [system_info.py:probe():195] Probing system
+2023-04-25 21:58:41,702 INFO    SystemMonitor:46277 [interfaces.py:start():190] Started cpu monitoring
+2023-04-25 21:58:41,703 INFO    SystemMonitor:46277 [interfaces.py:start():190] Started disk monitoring
+2023-04-25 21:58:41,705 INFO    SystemMonitor:46277 [interfaces.py:start():190] Started gpuapple monitoring
+2023-04-25 21:58:41,706 INFO    SystemMonitor:46277 [interfaces.py:start():190] Started memory monitoring
+2023-04-25 21:58:41,709 INFO    SystemMonitor:46277 [interfaces.py:start():190] Started network monitoring
+2023-04-25 21:58:41,714 DEBUG   HandlerThread:46277 [system_info.py:_probe_git():180] Probing git
+2023-04-25 21:58:41,752 DEBUG   HandlerThread:46277 [system_info.py:_probe_git():188] Probing git done
+2023-04-25 21:58:41,753 DEBUG   HandlerThread:46277 [system_info.py:probe():240] Probing system done
+2023-04-25 21:58:41,753 DEBUG   HandlerThread:46277 [system_monitor.py:probe():210] {'os': 'macOS-13.2-arm64-arm-64bit', 'python': '3.9.13', 'heartbeatAt': '2023-04-26T01:58:41.702580', 'startedAt': '2023-04-26T01:58:41.034843', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/nicholasgannon/Desktop/wand-trace/metadata-test/exec.py', 'codePath': 'exec.py', 'git': {'remote': 'ssh://github.com/nickgannon10/wandb-tracer.git', 'commit': '911c08499a6b936a84248a24b20df6bcab8d7486'}, 'email': 'nganno01@eecs.tufts.edu', 'root': '/Users/nicholasgannon/Desktop/wand-trace/metadata-test', 'host': 'Nicholass-MBP-2.cable.rcn.com', 'username': 'nicholasgannon', 'executable': '/Users/nicholasgannon/opt/miniconda3/envs/torch/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 460.4317207336426, 'used': 269.2670249938965}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-04-25 21:58:41,753 INFO    HandlerThread:46277 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-25 21:58:41,753 INFO    HandlerThread:46277 [system_monitor.py:probe():214] Publishing system info
+2023-04-25 21:58:41,753 DEBUG   HandlerThread:46277 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-25 21:58:41,754 DEBUG   HandlerThread:46277 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-25 21:58:41,754 DEBUG   HandlerThread:46277 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-25 21:58:42,399 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/wandb-summary.json
+2023-04-25 21:58:42,399 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/conda-environment.yaml
+2023-04-25 21:58:42,399 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/requirements.txt
+2023-04-25 21:58:45,416 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/conda-environment.yaml
+2023-04-25 21:58:45,475 DEBUG   HandlerThread:46277 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-25 21:58:45,476 INFO    HandlerThread:46277 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-25 21:58:45,489 DEBUG   SenderThread:46277 [sender.py:send():375] send: files
+2023-04-25 21:58:45,489 INFO    SenderThread:46277 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-25 21:58:45,495 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-25 21:58:45,496 DEBUG   SenderThread:46277 [sender.py:send():375] send: telemetry
+2023-04-25 21:58:45,496 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: stop_status
+2023-04-25 21:58:46,066 INFO    wandb-upload_0:46277 [upload_job.py:push():137] Uploaded file /var/folders/bn/sgh6gmts7t3bpw79mcpxlw0h0000gn/T/tmpat8d_4m0wandb/hzoiela3-wandb-metadata.json
+2023-04-25 21:58:46,422 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/wandb-metadata.json
+2023-04-25 21:58:46,422 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/output.log
+2023-04-25 21:58:46,647 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 21:58:48,429 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/output.log
+2023-04-25 21:58:51,676 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 21:58:53,528 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-25 21:58:53,529 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: log_artifact
+2023-04-25 21:58:53,855 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 21:58:54,459 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/media/table/query_answer_table_0_1da16bf1e8f6c92ec76f.table.json
+2023-04-25 21:58:54,459 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/media/table
+2023-04-25 21:58:54,459 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/media
+2023-04-25 21:58:54,663 INFO    wandb-upload_0:46277 [upload_job.py:push():95] Uploaded file /Users/nicholasgannon/Library/Application Support/wandb/artifacts/staging/tmpqg50gzuu
+2023-04-25 21:58:54,862 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-25 21:58:54,870 INFO    wandb-upload_1:46277 [upload_job.py:push():137] Uploaded file /var/folders/bn/sgh6gmts7t3bpw79mcpxlw0h0000gn/T/tmpat8d_4m0wandb/qizbwjn6-media/table/query_answer_table_0_1da16bf1e8f6c92ec76f.table.json
+2023-04-25 21:58:55,464 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/output.log
+2023-04-25 21:58:55,507 INFO    SenderThread:46277 [sender.py:send_request_log_artifact():1438] logged artifact run-dthwtxql-query_answer_table - {'id': 'QXJ0aWZhY3Q6NDMzNTMwNTk1', 'digest': 'ec370dfe70ba76f20105b490091ebe35', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0NTc0NDU5', 'latestArtifact': None}, 'version': 'latest'}
+2023-04-25 21:58:55,507 DEBUG   SenderThread:46277 [sender.py:send():375] send: files
+2023-04-25 21:58:55,508 INFO    SenderThread:46277 [sender.py:_save_file():1378] saving file media/table/query_answer_table_0_1da16bf1e8f6c92ec76f.table.json with policy now
+2023-04-25 21:58:55,509 DEBUG   SenderThread:46277 [sender.py:send():375] send: history
+2023-04-25 21:58:55,509 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 21:58:55,509 INFO    SenderThread:46277 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 21:58:55,510 DEBUG   SenderThread:46277 [sender.py:send():375] send: exit
+2023-04-25 21:58:55,510 INFO    SenderThread:46277 [sender.py:send_exit():598] handling exit code: 0
+2023-04-25 21:58:55,510 INFO    SenderThread:46277 [sender.py:send_exit():600] handling runtime: 12
+2023-04-25 21:58:55,511 INFO    SenderThread:46277 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 21:58:55,511 INFO    SenderThread:46277 [sender.py:send_exit():606] send defer
+2023-04-25 21:58:55,511 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: poll_exit
+2023-04-25 21:58:55,512 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:55,512 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-25 21:58:55,512 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:58:55,512 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-25 21:58:55,513 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 1
+2023-04-25 21:58:55,515 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:55,515 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-25 21:58:55,515 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:58:55,515 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-25 21:58:55,515 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 2
+2023-04-25 21:58:55,515 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:55,515 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-25 21:58:55,515 INFO    HandlerThread:46277 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-25 21:58:55,516 DEBUG   SystemMonitor:46277 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-25 21:58:55,516 DEBUG   SystemMonitor:46277 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-25 21:58:55,516 DEBUG   SystemMonitor:46277 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-25 21:58:55,516 INFO    HandlerThread:46277 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-25 21:58:55,517 INFO    HandlerThread:46277 [interfaces.py:finish():202] Joined disk monitor
+2023-04-25 21:58:55,517 INFO    HandlerThread:46277 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-04-25 21:58:55,518 INFO    HandlerThread:46277 [interfaces.py:finish():202] Joined memory monitor
+2023-04-25 21:58:55,518 INFO    HandlerThread:46277 [interfaces.py:finish():202] Joined network monitor
+2023-04-25 21:58:55,518 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:58:55,519 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-25 21:58:55,519 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 3
+2023-04-25 21:58:55,519 DEBUG   SenderThread:46277 [sender.py:send():375] send: telemetry
+2023-04-25 21:58:55,519 DEBUG   SenderThread:46277 [sender.py:send():375] send: stats
+2023-04-25 21:58:55,519 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:55,519 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-25 21:58:55,519 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:58:55,519 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-25 21:58:55,520 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 4
+2023-04-25 21:58:55,520 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:55,520 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-25 21:58:55,520 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:58:55,520 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-25 21:58:55,520 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 5
+2023-04-25 21:58:55,520 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:55,520 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-25 21:58:55,521 DEBUG   SenderThread:46277 [sender.py:send():375] send: summary
+2023-04-25 21:58:55,521 INFO    SenderThread:46277 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 21:58:55,521 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:58:55,521 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-25 21:58:55,521 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 6
+2023-04-25 21:58:55,521 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:55,521 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-25 21:58:55,522 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:58:55,522 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-25 21:58:55,527 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 21:58:55,712 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 7
+2023-04-25 21:58:55,713 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:55,713 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-25 21:58:55,713 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:58:55,713 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-25 21:58:55,868 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-25 21:58:55,910 INFO    wandb-upload_0:46277 [upload_job.py:push():137] Uploaded file /var/folders/bn/sgh6gmts7t3bpw79mcpxlw0h0000gn/T/tmpat8d_4m0wandb/bermt318-media/table/query_answer_table_0_1da16bf1e8f6c92ec76f.table.json
+2023-04-25 21:58:56,471 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/wandb-summary.json
+2023-04-25 21:58:56,472 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/config.yaml
+2023-04-25 21:58:59,410 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 8
+2023-04-25 21:58:59,421 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: poll_exit
+2023-04-25 21:58:59,424 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:59,425 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-25 21:58:59,428 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:58:59,428 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-25 21:58:59,449 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 9
+2023-04-25 21:58:59,450 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:58:59,450 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-25 21:58:59,450 DEBUG   SenderThread:46277 [sender.py:send():375] send: artifact
+2023-04-25 21:58:59,488 INFO    Thread-12 :46277 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/output.log
+2023-04-25 21:59:00,444 INFO    wandb-upload_1:46277 [upload_job.py:push():92] Skipped uploading /Users/nicholasgannon/Library/Application Support/wandb/artifacts/staging/tmpsru_phib
+2023-04-25 21:59:00,833 INFO    wandb-upload_0:46277 [upload_job.py:push():95] Uploaded file /Users/nicholasgannon/Library/Application Support/wandb/artifacts/staging/tmpyrhyfo9l
+2023-04-25 21:59:00,899 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-25 21:59:02,131 INFO    SenderThread:46277 [sender.py:send_artifact():1474] sent artifact job-ssh___github.com_nickgannon10_wandb-tracer.git_exec.py - {'id': 'QXJ0aWZhY3Q6NDMzNTMwNjQ1', 'digest': 'a0fbe8240c75f25e3657850e7464da1f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0NTcwNTE2', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDMzNTE4MjA2', 'versionIndex': 0}}, 'version': 'latest'}
+2023-04-25 21:59:02,132 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:59:02,132 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-25 21:59:02,133 INFO    SenderThread:46277 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-25 21:59:02,501 INFO    SenderThread:46277 [dir_watcher.py:finish():395] scan: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files
+2023-04-25 21:59:02,502 INFO    SenderThread:46277 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/requirements.txt requirements.txt
+2023-04-25 21:59:02,502 INFO    SenderThread:46277 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/output.log output.log
+2023-04-25 21:59:02,505 INFO    SenderThread:46277 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/config.yaml config.yaml
+2023-04-25 21:59:02,509 INFO    SenderThread:46277 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/wandb-summary.json wandb-summary.json
+2023-04-25 21:59:02,513 INFO    SenderThread:46277 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/conda-environment.yaml conda-environment.yaml
+2023-04-25 21:59:02,514 INFO    SenderThread:46277 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/wandb-metadata.json wandb-metadata.json
+2023-04-25 21:59:02,522 INFO    SenderThread:46277 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/media/table/query_answer_table_0_1da16bf1e8f6c92ec76f.table.json media/table/query_answer_table_0_1da16bf1e8f6c92ec76f.table.json
+2023-04-25 21:59:02,522 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 10
+2023-04-25 21:59:02,523 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:59:02,525 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-25 21:59:02,526 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:59:02,527 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-25 21:59:02,527 INFO    SenderThread:46277 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-25 21:59:03,189 INFO    wandb-upload_0:46277 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/output.log
+2023-04-25 21:59:03,444 INFO    wandb-upload_1:46277 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/requirements.txt
+2023-04-25 21:59:03,489 INFO    wandb-upload_2:46277 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/config.yaml
+2023-04-25 21:59:03,666 INFO    wandb-upload_4:46277 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/conda-environment.yaml
+2023-04-25 21:59:03,669 INFO    wandb-upload_3:46277 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/files/wandb-summary.json
+2023-04-25 21:59:03,874 INFO    Thread-11 :46277 [sender.py:transition_state():626] send defer: 11
+2023-04-25 21:59:03,885 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:59:03,885 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-25 21:59:03,886 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:59:03,886 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-25 21:59:03,886 INFO    SenderThread:46277 [file_pusher.py:join():173] waiting for file pusher
+2023-04-25 21:59:03,887 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 12
+2023-04-25 21:59:03,887 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:59:03,887 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-25 21:59:03,887 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:59:03,887 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-25 21:59:04,125 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 13
+2023-04-25 21:59:04,126 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:59:04,126 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-25 21:59:04,126 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:59:04,127 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-25 21:59:04,127 INFO    SenderThread:46277 [sender.py:transition_state():626] send defer: 14
+2023-04-25 21:59:04,127 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 21:59:04,127 INFO    HandlerThread:46277 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-25 21:59:04,129 DEBUG   SenderThread:46277 [sender.py:send():375] send: final
+2023-04-25 21:59:04,129 DEBUG   SenderThread:46277 [sender.py:send():375] send: footer
+2023-04-25 21:59:04,129 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: defer
+2023-04-25 21:59:04,129 INFO    SenderThread:46277 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-25 21:59:04,130 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-25 21:59:04,131 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: server_info
+2023-04-25 21:59:04,131 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: poll_exit
+2023-04-25 21:59:04,132 DEBUG   SenderThread:46277 [sender.py:send_request():402] send_request: server_info
+2023-04-25 21:59:04,136 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-25 21:59:04,137 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-25 21:59:04,304 DEBUG   HandlerThread:46277 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-25 21:59:04,305 INFO    HandlerThread:46277 [handler.py:finish():845] shutting down handler
+2023-04-25 21:59:05,136 INFO    WriterThread:46277 [datastore.py:close():298] close: /Users/nicholasgannon/Desktop/wand-trace/metadata-test/wandb/run-20230425_215841-dthwtxql/run-dthwtxql.wandb
+2023-04-25 21:59:05,306 INFO    SenderThread:46277 [sender.py:finish():1550] shutting down sender
+2023-04-25 21:59:05,307 INFO    SenderThread:46277 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-25 21:59:05,307 INFO    SenderThread:46277 [file_pusher.py:join():173] waiting for file pusher
